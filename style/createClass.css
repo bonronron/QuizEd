@@ -1,0 +1,30 @@
+body{
+    background-color: #fffff3;
+    
+}
+.xcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    flex-direction: column;
+}
+.xform{
+    align-items: center;
+}
+.xform label{
+    float:right;
+}
+.xform td{
+    padding: 10px;
+}
+.xform input[type="text"]{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.xform input[type="submit"]{
+    float: right
+}
+
+    

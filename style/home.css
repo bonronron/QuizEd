@@ -1,0 +1,31 @@
+.center{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    align-items: center;
+    text-align: center;
+}
+.createtest,.viewtest{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    transition: all 0.5s linear;
+}
+.createtest:hover,.viewtest:hover{
+    background-color: #fff1e3;
+    text-shadow: 0 0 3px black;
+    box-shadow: inset 0px 0px 10px 0px #d0c3b7;
+ }
+h1,h1:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.bigthing{
+    color: #eb6864
+}

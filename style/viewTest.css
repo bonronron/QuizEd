@@ -1,0 +1,33 @@
+.containerB{
+    margin: 0.8rem;
+}
+.jumbotron{
+    padding:2rem!important;
+    opacity: 0.8;
+}
+.jumbotron:hover{
+   opacity: 1;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: black;
+}
+.all-forms{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.xclass{
+    
+    text-align: center;
+}
+.deploy{
+    background: #f1f1f1;
+    float: right;
+    padding: 1rem;
+    border-radius: 10px;
+}

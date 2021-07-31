@@ -1,0 +1,55 @@
+.cstm-container{
+    height: 100%;
+    width: 100%;
+    min-height: calc(100vh - 65px);
+    display: flex;
+    margin-top: 20px;
+}
+.split{
+    width: 50%;
+}
+.fixheight{
+    overflow-y: auto;
+    height: calc(100vh - 108px) !important;
+}
+ul{
+     margin-top: 20px;
+}
+.centered{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vcentered{
+    align-items: center;
+    text-align: center;
+}
+.submit{
+    text-align: right;
+    margin-right: 20px;
+}
+#btnaddQ{
+    margin-top: 20px;
+}
+#test_name{
+    width : auto; 
+    margin-left: 10px;
+    color:black;
+}
+li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.rboptions,.options{
+    border-radius:0.2rem;
+    margin: 5px;
+    background-color: #f7c6c5;
+}
+.questionname{
+    border-radius:0.2rem;
+    background-color: #f7c6c5;
+    margin-left: 10px;
+}
+#btnAddO{
+    margin-bottom: 10px;
+}

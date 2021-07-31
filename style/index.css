@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: #f6bdbb
+}
+
+#xcontainer{
+    height: calc(100vh - 108px) !important;
+    width: 100vw;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 1.4rem;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+#password:hover,#username:hover{
+    background-color: #f6bdbb;
+    color: black;
+}
+
+#password,#username{
+   transition: all 1s linear;
+    color: black;
+}
+
+h2{
+    text-shadow: 3px 3px 0 #f6bdbb;
+    
+}
+
+.userkey,.password{
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+}
+i{
+    height: 1.4rem;
+    width: 1.4rem;
+}
